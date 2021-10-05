@@ -19,7 +19,6 @@ class LazyDogServiceProvider extends PackageServiceProvider
             ->name('lazy-dog')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_lazy-dog_table')
             ->hasCommand(LazyDogCommand::class);
     }
 }
