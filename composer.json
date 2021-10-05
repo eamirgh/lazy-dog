@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "eamirgh/lazy-dog",
+    "description": "A minimalist crud generator.",
     "keywords": [
-        ":vendor_name",
+        "eamirgh",
         "laravel",
-        ":package_slug"
+        "lazy-dog"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/eamirgh/lazy-dog",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Amir Ghaffari",
+            "email": "contact@amirghaffari.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Eamirgh\\LazyDog\\": "src",
+            "Eamirgh\\LazyDog\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Eamirgh\\LazyDog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Eamirgh\\LazyDog\\LazyDogServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LazyDog": "Eamirgh\\LazyDog\\LazyDogFacade"
             }
         }
     },

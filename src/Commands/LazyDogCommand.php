@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Eamirgh\LazyDog\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LazyDogCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lazy-dog';
 
     public $description = 'My command';
 
