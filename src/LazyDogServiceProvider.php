@@ -2,9 +2,9 @@
 
 namespace Eamirgh\LazyDog;
 
+use Eamirgh\LazyDog\Commands\LazyDogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Eamirgh\LazyDog\Commands\LazyDogCommand;
 
 class LazyDogServiceProvider extends PackageServiceProvider
 {
