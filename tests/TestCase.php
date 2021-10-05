@@ -3,7 +3,6 @@
 namespace Eamirgh\LazyDog\Tests;
 
 use Eamirgh\LazyDog\LazyDogServiceProvider;
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
